@@ -17,7 +17,7 @@ const Input = (props) => (
             backgroundColor: '#303030',
             borderWidth: 0.5,
             borderColor: '#303030',
-            borderRadius: 7,
+            borderRadius: 1,
             paddingLeft: 20,
             marginBottom: height * 0.02,
             fontSize: 18,
@@ -27,4 +27,3 @@ const Input = (props) => (
 );
 
 export {Input};
-
