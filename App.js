@@ -22,19 +22,15 @@ export function normalize(size) {
 }
 
 export default class App extends Component {
-
   state = {
     username: '',
     password: '',
     isRememberMe: false
   }
-
   componentDidMount() {
   }
-
   componentWillUnmount() {
   }
-
 
   componentDidUpdate(prevProps, prevState) {
     console.log('componentDidUpdate');
@@ -44,15 +40,14 @@ export default class App extends Component {
     return true
   }
 
-
   render() {
-
     const {
       username,
       password,
       isRememberMe
 
     } = this.state
+    
     return (
       <SafeAreaView style={{ flex: 1, backgroundColor: "black" }}>
 
