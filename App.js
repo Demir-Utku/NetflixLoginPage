@@ -22,7 +22,6 @@ export function normalize(size) {
 }
 
 export default class App extends Component {
-
   state = {
     username: '',
     password: '',
@@ -31,31 +30,24 @@ export default class App extends Component {
 
   componentDidMount() {
   }
-
   componentWillUnmount() {
   }
-
-
   componentDidUpdate(prevProps, prevState) {
     console.log('componentDidUpdate');
   }
-
   shouldComponentUpdate(nextProps, nextState) {
     return true
   }
 
-
   render() {
-
     const {
       username,
       password,
       isRememberMe
-
     } = this.state
+    
     return (
       <SafeAreaView style={{ flex: 1, backgroundColor: "black" }}>
-
         <ScrollView contentContainerStyle={{ flex: 1 }}>
 
           {/* Logo Image */}
@@ -134,7 +126,6 @@ export default class App extends Component {
           </View>
 
         </ScrollView>
-
       </SafeAreaView>
     )
   }
