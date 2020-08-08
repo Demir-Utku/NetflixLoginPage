@@ -27,7 +27,6 @@ export default class App extends Component {
     password: '',
     isRememberMe: false
   }
-
   componentDidMount() {
   }
   componentWillUnmount() {
