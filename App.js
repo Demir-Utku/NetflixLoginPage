@@ -31,11 +31,9 @@ export default class App extends Component {
   }
   componentWillUnmount() {
   }
-
   componentDidUpdate(prevProps, prevState) {
     console.log('componentDidUpdate');
   }
-
   shouldComponentUpdate(nextProps, nextState) {
     return true
   }
@@ -45,12 +43,10 @@ export default class App extends Component {
       username,
       password,
       isRememberMe
-
     } = this.state
     
     return (
       <SafeAreaView style={{ flex: 1, backgroundColor: "black" }}>
-
         <ScrollView contentContainerStyle={{ flex: 1 }}>
 
           {/* Logo Image */}
@@ -129,7 +125,6 @@ export default class App extends Component {
           </View>
 
         </ScrollView>
-
       </SafeAreaView>
     )
   }
